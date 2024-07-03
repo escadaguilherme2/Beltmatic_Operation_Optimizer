@@ -10,7 +10,8 @@ You can try it [here]()!
 
 Simply insert the number you are trying to creat, the max number unlocked and select the operations available at the moment.
 
-![image](https://github.com/escadaguilherme2/Beltmatic_Operation_Optimizer/assets/161480671/b59c3c45-7f00-4040-8d0b-adc8f862d90b)
+![image](https://github.com/escadaguilherme2/Beltmatic_Operation_Optimizer/assets/161480671/f6a9af05-5702-4be4-b339-5fcb4269b6bf)
+
 
 ### Output
 
