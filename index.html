@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>Beltmatic Operation Optimizer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Beltmatic Operation Optimizer</h1>
+        
+        <p class="sub">Get Beltmatic on <a target="_steam" href="https://store.steampowered.com/app/2674590/Beltmatic/">Steam</a>.</p>
+        <p class="spacer"></p>
+        
+        <div class="input-group">
+            <label for="target">Target number</label>
+            <p class="description">The number you are trying to create.</p>
+            <input type="number" id="target" name="target">
+        </div>
+        
+        <div class="input-group">
+            <label for="maxNumber">Max number unlocked</label>
+            <input type="number" id="maxNumber" name="maxNumber">
+        </div>
+        
+        <h3>Unlocks</h3>
+		
+        <div class="checkbox-item">
+            <input type="checkbox" name="" id="addition" checked />
+            <label for="addition">Addition</label>
+            
+            <input type="checkbox" name="" id="multiplication" checked />
+            <label for="multiplication">Multiplication</label>
+            
+            <input type="checkbox" name="" id="subtraction" checked />
+            <label for="subtraction">Subtraction</label>
+            
+            <input type="checkbox" name="" id="division" checked />
+            <label for="division">Division</label>
+            
+            <input type="checkbox" name="" id="exponentiation" checked />
+            <label for="exponentiation">Exponentiation</label>
+        </div>
+        
+        <button onclick="optimize()">Calculate</button>
+        
+        <h2>Results</h2>
+        
+        <p id="result"></p>
+        <p id="numOperations"></p>
+        <p id="uniqueNumbers"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
